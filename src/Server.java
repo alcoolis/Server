@@ -7,7 +7,7 @@ public class Server
 	{
 		String clientSentence;
 		String capitalizedSentence;
-		ServerSocket welcomeSocket = new ServerSocket(6789);
+		ServerSocket welcomeSocket = new ServerSocket(8080);
 
 		while (true)
 		{
